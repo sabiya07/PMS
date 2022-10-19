@@ -66,7 +66,7 @@ function Signup({ alert, showAlert }) {
             <div className="container">
                 <div>
                     <center>
-                        <Link to="/"> <img src="https://pngimg.com/uploads/book/book_PNG51090.png" alt="login" style={{ width: '30%' }} /></Link>
+                        <Link to="/"> <img src="https://pngimg.com/uploads/book/book_PNG51090.png" alt="Login" style={{ width: '30%' }} /></Link>
                     </center>
                 </div>
                 {alert !== null && <h3 className={`alert-${alert.type}`}>{alert.msg}</h3>}
